@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+*.pyo
+*.pyc
+*.pyd
+
+# Environment
+.env
+.env.local
+.env.production
+.env.staging
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build artifacts
+frontend/dist/
+frontend/.next/
+frontend/build/
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# Alembic
+backend/alembic/versions/__pycache__/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+desktop.ini
